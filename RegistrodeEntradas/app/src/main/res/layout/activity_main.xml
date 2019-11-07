@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btimg_cam"
+        android:layout_width="47dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="220dp"
+        android:contentDescription="@string/btimg_cam"
+        app:srcCompat="@mipmap/ic_launcher_back2" />
+
+    <TextView
+        android:id="@+id/txt_tipo"
+        android:layout_width="187dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="218dp"
+        android:text="@string/txt_tipo"
+        android:textColor="#FC070707"
+        android:textSize="18sp" />
+
+
+    <Spinner
+        android:id="@+id/spinner_ent"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/spinner_ent" />
+
+    <ImageButton
+        android:id="@+id/btback"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/btback"
+        app:srcCompat="@mipmap/ic_launcher_back1" />
+
+    <TextView
+        android:id="@+id/txt_idi"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="106dp"
+        android:text="@string/txt_idi"
+        android:textColor="#FC070707"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="139dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edt_id"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/txt_cod"
+        android:layout_width="214dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="506dp"
+        android:text="@string/txt_cod"
+        android:textColor="#FC070707"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="221dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edt_cod"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/txt_lot"
+        android:layout_width="63dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="287dp"
+        android:text="@string/txt_lot"
+        android:textColor="#FC070707"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_lot"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="282dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edt_lot"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/txt_produ"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="345dp"
+        android:text="@string/txt_produ"
+        android:textColor="#FC070707"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="139dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edt_prod"
+        android:inputType="textPersonName"
+        android:text="@string/edt_prod"
+        android:textAlignment="center"
+        android:textColor="#74000103"
+        android:textColorHint="#00FFFFFF"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/txt_cant"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="302dp"
+        android:text="@string/txt_cant"
+        android:textColor="#030000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_cant"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:hint="@string/edt_cant"
+        android:inputType="textPersonName"
+        android:text="@string/edt_cant"
+        android:textColor="#7E030000"
+        android:textColorHint="#0F000000" />
+
+    <TextView
+        android:id="@+id/txt_unidad"
+        android:layout_width="166dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="231dp"
+        android:text="@string/txt_unidad"
+        android:textColor="#050000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_unidad"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edt_unidad"
+        android:textColor="#7A000000" />
+
+    <Button
+        android:id="@+id/btconfirm"
+        android:layout_width="210dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="101dp"
+        android:text="@string/btconfirm"
+        android:textColor="#AE362AA0" />
+
+</RelativeLayout>

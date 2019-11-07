@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Registro de Entradas</string>
+    <string name="txt_tipo">Tipo de entrada</string>
+    <string name="spinner_ent">Seleccionar...</string>
+    <string name="txt_idi">ID</string>
+    <string name="edt_id">Registro de ID</string>
+    <string name="txt_cod">Codigo de Barras</string>
+    <string name="edt_cod">Bar Code</string>
+    <string name="btimg_cam">Icono de leer codigo</string>
+    <string name="txt_lot">Lote</string>
+    <string name="edt_lot">Ingresar lote</string>
+    <string name="txt_cant">Cantidad</string>
+    <string name="edt_cant">ingresar</string>
+    <string name="txt_produ">Producto</string>
+    <string name="edt_prod">descripcion</string>
+    <string name="txt_unidad">Unidad de Medida</string>
+    <string name="edt_unidad">ingresar</string>
+    <string name="btback">back</string>
+    <string name="btconfirm">confirmar entrda</string>
+</resources>
