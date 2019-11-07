@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Registro de Entradas</string>
     <string name="txt_tipo">Tipo de entrada</string>
-    <string name="spinner_ent">Seleccionar...</string>
+    <string name="spinner_ent">seleccionar</string>
     <string name="txt_idi">ID</string>
     <string name="edt_id">Registro de ID</string>
     <string name="txt_cod">Codigo de Barras</string>

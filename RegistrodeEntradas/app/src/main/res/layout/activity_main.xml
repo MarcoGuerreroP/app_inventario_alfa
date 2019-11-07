@@ -16,6 +16,7 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="231dp"
         android:contentDescription="@string/btimg_cam"
+        android:onClick="Escan"
         app:srcCompat="@mipmap/ic_launcher_back2" />
 
     <TextView
@@ -40,7 +41,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="18dp"
         android:layout_marginTop="83dp"
-        android:contentDescription="@string/spinner_ent" />
+        android:contentDescription="@string/spinner_ent"
+        android:textAlignment="center" />
 
     <ImageButton
         android:id="@+id/btback"
