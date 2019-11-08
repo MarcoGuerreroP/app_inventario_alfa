@@ -2,7 +2,9 @@ package com.example.registrodeentradas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class index_Activity extends AppCompatActivity {
 
@@ -10,5 +12,11 @@ public class index_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index_);
+
+    }
+    //funcion de icono de entradas de inventario
+    public void Imput (View view){
+        Intent imput = new Intent(this, MainActivity.class);
+        startActivity(imput);
     }
 }

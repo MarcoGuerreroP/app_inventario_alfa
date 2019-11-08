@@ -17,5 +17,7 @@
     <string name="edt_unidad">ingresar</string>
     <string name="btback">back</string>
     <string name="btconfirm">confirmar entrda</string>
-
+    <string name="txt_index">SKU MANAGER</string>
+    <string name="imb_enter">Entrada a Inventario</string>
+    <string name="imb_stock">Entrada a Inventario</string>
 </resources>

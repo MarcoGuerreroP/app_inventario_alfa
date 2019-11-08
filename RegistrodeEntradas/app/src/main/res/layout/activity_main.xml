@@ -16,7 +16,6 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="231dp"
         android:contentDescription="@string/btimg_cam"
-        android:onClick="Escan"
         app:srcCompat="@mipmap/ic_launcher_back2" />
 
     <TextView
@@ -53,6 +52,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="12dp"
         android:contentDescription="@string/btback"
+        android:onClick="Menu"
         app:srcCompat="@mipmap/ic_launcher_back1" />
 
     <TextView
@@ -221,7 +221,8 @@
         android:hint="@string/edt_unidad"
         android:inputType="textPersonName"
         android:textColor="#0E0D0D"
-        android:textColorHint="#52161212" />
+        android:textColorHint="#52161212"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btconfirm"
