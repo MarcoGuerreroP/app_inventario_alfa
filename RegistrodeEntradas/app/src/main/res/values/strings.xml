@@ -16,8 +16,26 @@
     <string name="txt_unidad">Unidad de Medida</string>
     <string name="edt_unidad">ingresar</string>
     <string name="btback">back</string>
-    <string name="btconfirm">confirmar entrda</string>
+    <string name="btconfirm">Confirmar Entrada</string>
+
+    <!-- Strings de pantalla index menu -->
+
     <string name="txt_index">SKU MANAGER</string>
-    <string name="imb_enter">Entrada a Inventario</string>
-    <string name="imb_stock">Entrada a Inventario</string>
+    <string name="imb_stock">Registrar entrada</string>
+    <string name="imb_imput">Registrar producto</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- Strings de Registrar producto Activity -->
+
+    <string name="txt_add">Agregar Producto</string>
+    <string name="txt_precio">Precio</string>
+    <string name="edt_precio">precio</string>
+    <string name="edt_id2">ingresar</string>
+    <string name="txt_id2">ID</string>
+
+
+
+
+
+
 </resources>

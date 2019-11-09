@@ -56,7 +56,7 @@
         app:srcCompat="@mipmap/ic_launcher_back1" />
 
     <TextView
-        android:id="@+id/txt_idi"
+        android:id="@+id/txt_id"
         android:layout_width="67dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -68,7 +68,7 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/edt_id"
+        android:id="@+id/edt_idi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

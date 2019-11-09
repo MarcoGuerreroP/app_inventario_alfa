@@ -19,4 +19,9 @@ public class index_Activity extends AppCompatActivity {
         Intent imput = new Intent(this, MainActivity.class);
         startActivity(imput);
     }
+    //funcion de registrar productos
+    public void Producto (View view) {
+        Intent producto = new Intent(this, MainActivity.class);
+        startActivity(producto);
+    }
 }
