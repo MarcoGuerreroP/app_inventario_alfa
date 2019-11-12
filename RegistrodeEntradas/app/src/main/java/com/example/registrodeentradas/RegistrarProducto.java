@@ -14,6 +14,10 @@ public class RegistrarProducto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar_producto);
+
+        getSupportActionBar().setTitle("Registrar Producto");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     public void Menu2(View view) {

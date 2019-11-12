@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setTitle("Registrat Entrada");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         barcode = (EditText) findViewById(R.id.edt_cod);
         lector = (ImageButton) findViewById(R.id.btimg_cam);
 

@@ -11,11 +11,10 @@
     <string name="edt_lot">Ingresar lote</string>
     <string name="txt_cant">Cantidad</string>
     <string name="edt_cant">ingresar</string>
-    <string name="txt_produ">Producto</string>
+    <string name="txt_prod">Producto</string>
     <string name="edt_prod">descripcion</string>
     <string name="txt_unidad">Unidad de Medida</string>
     <string name="edt_unidad">ingresar</string>
-    <string name="btback">back</string>
     <string name="btconfirm">Confirmar Entrada</string>
 
     <!-- Strings de pantalla index menu -->

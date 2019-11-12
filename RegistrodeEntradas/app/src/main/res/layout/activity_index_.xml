@@ -10,37 +10,44 @@
         android:id="@+id/txt_index"
         android:layout_width="285dp"
         android:layout_height="36dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="28dp"
         android:text="@string/txt_index"
         android:textAlignment="center"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.153" />
 
-    <ImageButton
-        android:id="@+id/imb_stock"
-        android:layout_width="47dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="248dp"
-        android:layout_marginTop="72dp"
-        android:contentDescription="@string/imb_stock"
-        android:onClick="Imput"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_index"
-        app:srcCompat="@mipmap/ic_launcher_inv_enter" />
-
-    <ImageButton
-        android:id="@+id/imb_imput"
-        android:layout_width="50dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="196dp"
-        android:contentDescription="@string/imb_imput"
-        android:onClick="Producto"
+    <TableRow
+        android:layout_width="212dp"
+        android:layout_height="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher_stock" />
+        app:layout_constraintVertical_bias="0.498">
+
+        <ImageButton
+
+            android:id="@+id/imb_stock"
+            android:layout_width="46dp"
+            android:layout_height="54dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/imb_stock"
+            android:onClick="Entrada"
+            android:padding="@dimen/default_gap"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/ic_launcher_inv_enter" />
+
+        <ImageButton
+            android:id="@+id/imb_imput"
+            android:layout_width="49dp"
+            android:layout_height="53dp"
+            android:contentDescription="@string/imb_imput"
+            android:onClick="Producto"
+            app:srcCompat="@mipmap/ic_launcher_stock" />
+    </TableRow>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
